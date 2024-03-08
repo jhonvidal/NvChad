@@ -47,6 +47,14 @@ local plugins = {
     end,
   },
 
+  {
+    "L3MON4D3/LuaSnip",
+    config = function()
+      require("plugins.configs.others").luasnip()
+      require("custom.configs.luasnip").config()
+    end,
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",

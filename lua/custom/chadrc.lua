@@ -26,8 +26,8 @@ local logo = [[
 ]]
 
 M.ui = {
-  theme = "everforest",
-  theme_toggle = { "everforest", "one_light" },
+  theme = "catppuccin",
+  theme_toggle = { "catppuccin", "one_light" },
 
   hl_override = highlights.override,
   hl_add = highlights.add,
